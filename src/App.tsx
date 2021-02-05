@@ -1,12 +1,17 @@
-import React from 'react';
-import './App.css';
-
-import UploadImage from "./components/UploadPicture" 
+import React from "react";
+import "./App.css";
+import UploadImage from "./components/UploadPicture";
+import DogsLayout from "./components/DogsLayout"
 
 function App() {
   return (
     <div className="App">
-         <UploadImage/>
+      <div>
+        <UploadImage />
+      </div>
+      <div>
+        <DogsLayout />
+      </div>
     </div>
   );
 }
